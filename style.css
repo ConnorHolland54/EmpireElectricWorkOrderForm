@@ -1,0 +1,53 @@
+
+/* Header section */
+.headerGrid {
+  display: grid;
+  grid: auto / auto auto auto;
+  grid-gap: auto;
+  padding: 10px;
+}
+
+section.headerGrid div {
+  white-space: pre-line;
+}
+
+/* Purchase order section */
+.purchaseOrderGrid {
+  display: grid;
+  grid: auto / auto auto auto auto;
+  grid-gap: auto;
+  padding: 10px;
+}
+
+section.purchaseOrderGrid div {
+  padding-top: 10px;
+}
+
+/* vendor and service location section */
+.vendorServiceLocationGrid {
+  display: grid;
+  grid: auto / auto auto auto auto;
+  grid-gap: auto;
+  padding: 10px;
+}
+
+
+/* Common Styles */
+.leftAlign {
+  text-align: left;
+}
+.rightAlign {
+  text-align: right;
+}
+.centerAlign {
+  text-align: center;
+}
+.underline {
+  text-decoration: underline;
+}
+.input {
+  color: red;
+}
+.size12 {
+  font-size: 12px;
+}
